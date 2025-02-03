@@ -1,0 +1,107 @@
+Request 1
+GET https://www.googleapis.com/books/v1/volumes?q=Turing
+
+Request Headers
+User-Agent: PostmanRuntime/7.43.0
+Shows postman making the request.
+
+Accept: */*
+Shows postman can accept any media response.
+
+Postman-Token: 385f0ea8-de88-40cc-af13-1354ab825d08
+A unique token for Postman to track the request.
+
+Host: www.googleapis.com
+The hostname of the server to where the request is sent.
+
+Accept-Encoding: gzip, deflate, br
+Tells the server which encoding algorithms the client can handle.
+
+Connection: keep-alive
+Asks the server to keep the TCP connection open for additional requests.
+
+Response Headers
+Content-Type: application/json; charset=UTF-8
+Selects JSON and character encoding UTF-8 for media type.
+
+Vary: Origin, X-Origin, Referer
+Configures caches that the response may vary based on these request header fields.
+
+Content-Encoding: gzip
+Shows that the response body is compressed using gzip.
+
+Date: Mon, 03 Feb 2025 00:37:08 GMT
+The date and time when the server gave the response.
+
+Server: ESF
+The name or identifier of the server software.
+
+X-XSS-Protection: 0
+Disable XSS protection.
+
+X-Frame-Options: SAMEORIGIN
+Prevents the content from being displayed in an iframe on a different domain.
+
+X-Content-Type-Options: nosniff
+Instructs browsers not to sniff the content type and to rely on the declared Content-Type instead.
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Indicates alternate services that the client could use to connect to this server.
+
+Transfer-Encoding: chunked
+The response is sent in chunks rather than as one complete block.
+
+
+
+Request 2
+GET https://www.googleapis.com/books/v1/volumes/LFQ7DwAAQBAJ
+
+Request Headers
+User-Agent: PostmanRuntime/7.43.0
+Same as above postman client.
+
+Accept: */*
+Accept any response media type.
+
+Postman-Token: 5713b41b-be42-4c8c-b885-3da4fadbab6b
+Unique token for this specific request in Postman.
+
+Host: www.googleapis.com
+Server hostname.
+
+Accept-Encoding: gzip, deflate, br
+Supported compression algorithms.
+
+Connection: keep-alive
+Keep the connection active.
+
+Response Headers
+Content-Type: application/json; charset=UTF-8
+JSON response in UTF-8.
+
+Vary: Origin, X-Origin, Referer
+Response may vary based on these headers from the request.
+
+Content-Encoding: gzip
+Response compressed with gzip.
+
+Date: Mon, 03 Feb 2025 00:37:11 GMT
+Server timestamp for the response.
+
+Server: ESF
+Google’s front-end server.
+
+X-XSS-Protection: 0
+Indicates XSS protection disabled.
+
+X-Frame-Options: SAMEORIGIN
+Restricts iframing of content to the same origin.
+
+X-Content-Type-Options: nosniff
+Prevents MIME type sniffing.
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Provides HTTP/3 service options.
+
+Transfer-Encoding: chunked
+Data is sent in chunks.
